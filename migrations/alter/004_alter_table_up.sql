@@ -1,0 +1,5 @@
+ALTER TABLE aluno
+ADD COLUMN aluno_id serial NOT NULL UNIQUE PRIMARY KEY,
+ADD COLUMN curso_id INT NOT NULL,
+ADD CONSTRAINT fk_curso FOREIGN KEY(curso_id)
+    REFERENCES curso

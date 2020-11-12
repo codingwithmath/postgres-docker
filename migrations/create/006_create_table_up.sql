@@ -1,0 +1,4 @@
+CREATE TABLE nota (
+    nota FLOAT NOT NULL,
+    status VARCHAR(250) NOT NULL
+)
